@@ -1,5 +1,5 @@
 # webChord
-This is a simple tool built for harmonica players. It might be useful when you're arranging songs for harmonica ensemble.
+This is a simple tool built for harmonica players. It could be useful when you're arranging songs for harmonica ensemble.
 How to use?
 ----
 
