@@ -10,5 +10,5 @@ Features
 ----
 
 - All 48 chords in Chord Harmonica
-- Sound created by Web Audio API
-- Anyways, this is my first project ever.
+- Sound created with Web Audio API
+- Not the ultimate version, but hey, this is my first project ever.
