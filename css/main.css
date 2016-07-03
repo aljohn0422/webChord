@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @font-face {
-    font-family: "jazztext";
-    src: url(/fonts/jazztext.ttf) format('truetype');
+    font-family: jazztext;
+    src: url(/fonts/jazztext.ttf) format("embedded-opentype"), url(/fonts/jazztext.woff) format("woff"), url(/fonts/jazztext.ttf) format("truetype"), url(/fonts/jazztext.svg) format("svg");
 }
 
 body section {
@@ -13,7 +13,7 @@ body section {
 }
 
 .button {
-    font-family: "jazztext";
+    font-family: jazztext;
     align-self: center;
     background: transparent;
     margin: 0.2rem;
@@ -30,7 +30,7 @@ body section {
 }
 
 .button2 {
-    font-family: "jazztext";
+    font-family: jazztext;
     align-self: center;
     background: transparent;
     margin: 0.2rem;
@@ -53,10 +53,6 @@ h1 {
     margin-bottom: 0px;
 }
 
-p {
-    font-family: 'Slabo 27px', serif;
-}
-
 .description {
     font-family: 'Noto Sans TC', sans-serif;
     width: 55%;
@@ -66,6 +62,7 @@ p {
 }
 
 .note {
+    font-family: 'Noto Sans TC', sans-serif;
     width: 35%;
     float: right;
     text-align: right;
