@@ -24,7 +24,7 @@ body section {
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
-    border-width: 3px;
+    border-width: 3.5px;
     border-style: solid;
     border-radius: 6px;
 }
@@ -41,7 +41,7 @@ body section {
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
-    border-width: 3px;
+    border-width: 3.5px;
     border-style: dashed;
     border-radius: 6px;
 }
@@ -49,22 +49,36 @@ body section {
 h1 {
     font-family: jazztext;
     font-size: 60px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .description {
     font-family: 'Noto Sans TC', sans-serif;
-    width: 55%;
+    width: 60%;
     float: left;
     margin-left: 5%;
+    margin-top: 2.5%;
     text-indent: 32.5px;
 }
 
 .note {
     font-family: 'Noto Sans TC', sans-serif;
-    width: 35%;
+    width: 30%;
     float: right;
     text-align: right;
     margin-right: 5%;
+    line-height: 8px;
+}
+
+.alert {
+    font-family: 'Noto Sans TC', sans-serif;
+    float: right;
+    margin-top: 4%;
+    margin-right: 5%;
+    padding: 0 20px 0 8px;
+    background-color: #FFCB0D;
+    border-style: solid;
+    border-color: #DF3D03;
+    border-radius: 10px;
 }
