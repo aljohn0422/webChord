@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face {
+    font-family: jazztext;
+    src: url(/fonts/jazztext.ttf);
+}
+
 body section {
     display: flex;
     align-content: center;
@@ -8,7 +13,7 @@ body section {
 }
 
 .button {
-    font-family: 'jazztext';
+    font-family: jazztext;
     align-self: center;
     background: transparent;
     margin: 0.2rem;
@@ -42,7 +47,7 @@ body section {
 }
 
 h1 {
-    font-family: 'jazztext';
+    font-family: jazztext;
     font-size: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
