@@ -2,78 +2,86 @@
 <html>
 
 <head>
-    <title>Chord Demo</title>
+    <title>web Chord</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link src="/fonts/jazztext.ttf" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <div>
-        <h1><span style="color:red;font-weight:bold">Chord Harmonica</span> Web Simulator</h1>
-        <p>This tool works best with <span style="background:yellow">Google Chrome</span>.</p>
+        <h1 style="text-align:center"><span style="color:red">Chord Harmonica</span> Web Simulator</h1>
     </div>
-    <section>
-        <button class="button2" , id="Db7">Db7</button>
-        <button class="button2" , id="Ab7">Ab7</button>
-        <button class="button2" , id="Eb7">Eb7</button>
-        <button class="button2" , id="Bb7">Bb7</button>
-        <button class="button2" , id="F7">F7</button>
-        <button class="button2" , id="C7">C7</button>
-        <button class="button2" , id="G7">G7</button>
-        <button class="button2" , id="D7">D7</button>
-        <button class="button2" , id="A7">A7</button>
-        <button class="button2" , id="E7">E7</button>
-        <button class="button2" , id="B7">B7</button>
-        <button class="button2" , id="Gb7">F#7</button>
-    </section>
-    <section>
-        <button class="button" , id="Gb">Gb</button>
-        <button class="button" , id="Db">Db</button>
-        <button class="button" , id="Ab">Ab</button>
-        <button class="button" , id="Eb">Eb</button>
-        <button class="button" , id="Bb">Bb</button>
-        <button class="button" , id="F">F</button>
-        <button class="button" , id="C">C</button>
-        <button class="button" , id="G">G</button>
-        <button class="button" , id="D">D</button>
-        <button class="button" , id="A">A</button>
-        <button class="button" , id="E">E</button>
-        <button class="button" , id="B">B</button>
-    </section>
-    <section>
-        <button class="button" , id="Gbm">Gbm</button>
-        <button class="button" , id="Dbm">Dbm</button>
-        <button class="button" , id="Abm">Abm</button>
-        <button class="button" , id="Ebm">Ebm</button>
-        <button class="button" , id="Bbm">Bbm</button>
-        <button class="button" , id="Fm">Fm</button>
-        <button class="button" , id="Cm">Cm</button>
-        <button class="button" , id="Gm">Gm</button>
-        <button class="button" , id="Dm">Dm</button>
-        <button class="button" , id="Am">Am</button>
-        <button class="button" , id="Em">Em</button>
-        <button class="button" , id="Bm">Bm</button>
-    </section>
-    <section>
-        <button class="button2" , id="Dbaug">C#+</button>
-        <button class="button2" , id="Abdim">Abdim</button>
-        <button class="button2" , id="Ebaug">Eb+</button>
-        <button class="button2" , id="Bbdim">Bbdim</button>
-        <button class="button2" , id="Bbaug">Bb+</button>
-        <button class="button2" , id="Cdim">Cdim</button>
-        <button class="button2" , id="Gaug">G+</button>
-        <button class="button2" , id="Ddim">Ddim</button>
-        <button class="button2" , id="Aaug">A+</button>
-        <button class="button2" , id="Edim">Edim</button>
-        <button class="button2" , id="Eaug">E+</button>
-        <button class="button2" , id="Gbdim">F#dim</button>
-    </section>
-    <div style="text-align:right">
-        <p>Created by HannChyun, leader and the chord player of DoNuts Harmonica Ensemble</p>
+    <div class="chord">
+        <section>
+            <button class="button2" , id="Db7">D„7</button>
+            <button class="button2" , id="Ab7">A„7</button>
+            <button class="button2" , id="Eb7">E„7</button>
+            <button class="button2" , id="Bb7">B„7</button>
+            <button class="button2" , id="F7">F7</button>
+            <button class="button2" , id="C7">C7</button>
+            <button class="button2" , id="G7">G7</button>
+            <button class="button2" , id="D7">D7</button>
+            <button class="button2" , id="A7">A7</button>
+            <button class="button2" , id="E7">E7</button>
+            <button class="button2" , id="B7">B7</button>
+            <button class="button2" , id="Gb7">F#7</button>
+        </section>
+        <section>
+            <button class="button" , id="Gb">G„</button>
+            <button class="button" , id="Db">D„</button>
+            <button class="button" , id="Ab">A„</button>
+            <button class="button" , id="Eb">E„</button>
+            <button class="button" , id="Bb">B„</button>
+            <button class="button" , id="F">F</button>
+            <button class="button" , id="C">C</button>
+            <button class="button" , id="G">G</button>
+            <button class="button" , id="D">D</button>
+            <button class="button" , id="A">A</button>
+            <button class="button" , id="E">E</button>
+            <button class="button" , id="B">B</button>
+        </section>
+        <section>
+            <button class="button" , id="Gbm">G„m</button>
+            <button class="button" , id="Dbm">D„m</button>
+            <button class="button" , id="Abm">A„m</button>
+            <button class="button" , id="Ebm">E„m</button>
+            <button class="button" , id="Bbm">B„m</button>
+            <button class="button" , id="Fm">Fm</button>
+            <button class="button" , id="Cm">Cm</button>
+            <button class="button" , id="Gm">Gm</button>
+            <button class="button" , id="Dm">Dm</button>
+            <button class="button" , id="Am">Am</button>
+            <button class="button" , id="Em">Em</button>
+            <button class="button" , id="Bm">Bm</button>
+        </section>
+        <section>
+            <button class="button2" , id="Dbaug">D„+</button>
+            <button class="button2" , id="Abdim">A„˚</button>
+            <button class="button2" , id="Ebaug">E„+</button>
+            <button class="button2" , id="Bbdim">B„˚</button>
+            <button class="button2" , id="Bbaug">F#+</button>
+            <button class="button2" , id="Cdim">C˚</button>
+            <button class="button2" , id="Gaug">G+</button>
+            <button class="button2" , id="Ddim">D˚</button>
+            <button class="button2" , id="Aaug">A+</button>
+            <button class="button2" , id="Edim">E˚</button>
+            <button class="button2" , id="Eaug">E+</button>
+            <button class="button2" , id="Gbdim">F#˚</button>
+        </section>
+    </div>
+    <div class="description">
+        <p>線上和弦口琴模擬器以 <a href="http://www.w3.org/TR/webaudio/">Web Audio API</a> 開發。所有聲音皆由 oscillator 發聲，故聽起來是很不真實的「電子」的音色。和弦內音的排列採Suzuki和弦口琴配置，是轉位過的和弦，完整的音符列表請上網查詢Suzuki和弦口琴，或是進入Github看看我亂七八糟的程式碼。</p>
+        <p>和弦口琴中每個和弦完整的八個音皆有發聲，其中，高頻有稍微濾波，使音色較圓潤。但透過 oscillator 來發聲實在不是什麼好方法，音色聽起來與實際的聲音相差甚遠，下一步要研究 Web MIDI API，使網頁可以發出鋼琴或其他較接近真實樂器的聲音。</p>
+    </div>
+    <div class="note">
+        <p>This tool works best with Google Chrome.</p>
+        <p>Created by DoNuts-HannChyun</p>
+        <p>Source code available on <a href="https://github.com/aljohn0422/webChord">Github</a></p>
     </div>
 
     <script src="js/chord.js"></script>

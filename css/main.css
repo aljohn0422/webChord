@@ -1,45 +1,69 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 body section {
     display: flex;
+    align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    background: #ffffff;
+    justify-content: center;
 }
 
 .button {
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: 'jazztext';
     align-self: center;
     background: transparent;
     margin: 0.2rem;
     height: 5rem;
     width: 5rem;
-    color: #e5304c;
-    font-size: 2rem;
+    color: #F25D50;
+    font-size: 2.8rem;
     letter-spacing: 1px;
     outline: none;
-    border-color: #ef2f79;
-    border-radius: 255px 10px 225px 10px/10px 225px 10px 255px;
+    border-color: #F27B50;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 6px;
 }
 
 .button2 {
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: jazztext;
     align-self: center;
     background: transparent;
     margin: 0.2rem;
     height: 5rem;
     width: 5rem;
-    color: #41403E;
-    font-size: 2rem;
+    color: #F25D50;
+    font-size: 2.8rem;
     letter-spacing: 1px;
     outline: none;
-    border: dashed 2px;
-    border-radius: 255px 10px 225px 10px/10px 225px 10px 255px;
+    border-color: #F27B50;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 6px;
 }
 
 h1 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'jazztext';
+    font-size: 60px;
 }
 
 p {
     font-family: 'Slabo 27px', serif;
+}
+
+.description {
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 55%;
+    float: left;
+    margin-left: 5%;
+}
+
+.description p {
+    text-indent: 32.5px;
+}
+
+.note {
+    width: 35%;
+    float: right;
+    text-align: right;
+    margin-right: 5%;
 }
