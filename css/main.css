@@ -1,0 +1,45 @@
+body section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background: #ffffff;
+}
+
+.button {
+    font-family: 'Patrick Hand SC', cursive;
+    align-self: center;
+    background: transparent;
+    margin: 0.2rem;
+    height: 5rem;
+    width: 5rem;
+    color: #e5304c;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    outline: none;
+    border-color: #ef2f79;
+    border-radius: 255px 10px 225px 10px/10px 225px 10px 255px;
+}
+
+.button2 {
+    font-family: 'Patrick Hand SC', cursive;
+    align-self: center;
+    background: transparent;
+    margin: 0.2rem;
+    height: 5rem;
+    width: 5rem;
+    color: #41403E;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    outline: none;
+    border: dashed 2px;
+    border-radius: 255px 10px 225px 10px/10px 225px 10px 255px;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+}
