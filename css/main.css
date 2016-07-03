@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @font-face {
     font-family: "jazztext";
-    src: url(/fonts/jazztext.ttf);
+    src: url(/fonts/jazztext.ttf) format('truetype');
 }
 
 body section {
