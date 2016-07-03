@@ -15,7 +15,7 @@ body section {
 .button {
     font-family: jazztext;
     align-self: center;
-    background: transparent;
+    background: rgba(237, 113, 68, 0.44);
     margin: 0.2rem;
     height: 5rem;
     width: 5rem;
@@ -81,4 +81,14 @@ h1 {
     border-style: solid;
     border-color: #DF3D03;
     border-radius: 10px;
+}
+
+.right {
+    border-right-color: red;
+    border-right-style: solid;
+}
+
+.left {
+    border-left-color: red;
+    border-left-style: solid;
 }
