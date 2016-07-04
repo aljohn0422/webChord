@@ -12,15 +12,20 @@ body section {
     justify-content: center;
 }
 
+.text {
+    align-content: center;
+    justify-content: center;
+}
+
 .button {
     font-family: jazztext;
     align-self: center;
     background: rgba(237, 113, 68, 0.44);
     margin: 0.2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     color: #F25D50;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
@@ -34,10 +39,10 @@ body section {
     align-self: center;
     background: transparent;
     margin: 0.2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     color: #F25D50;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
@@ -55,9 +60,9 @@ h1 {
 
 .description {
     font-family: 'Noto Sans TC', sans-serif;
-    width: 60%;
+    width: 50%;
     float: left;
-    margin-left: 5%;
+    margin-left: 100px;
     margin-top: 2.5%;
     text-indent: 32.5px;
 }
@@ -84,11 +89,9 @@ h1 {
 }
 
 .right {
-    border-right-color: red;
-    border-right-style: solid;
+    margin-right: .7%;
 }
 
 .left {
-    border-left-color: red;
-    border-left-style: solid;
+    margin-left: .7%;
 }

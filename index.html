@@ -19,12 +19,12 @@
             <button class="button2" , id="Db7">D„7</button>
             <button class="button2" , id="Ab7">A„7</button>
             <button class="button2" , id="Eb7">E„7</button>
-            <button class="button2" , id="Bb7">B„7</button>
-            <button class="button2" , id="F7">F7</button>
+            <button class="button2 right" , id="Bb7">B„7</button>
+            <button class="button2 left" , id="F7">F7</button>
             <button class="button2" , id="C7">C7</button>
             <button class="button2" , id="G7">G7</button>
-            <button class="button2" , id="D7">D7</button>
-            <button class="button2" , id="A7">A7</button>
+            <button class="button2 right" , id="D7">D7</button>
+            <button class="button2 left" , id="A7">A7</button>
             <button class="button2" , id="E7">E7</button>
             <button class="button2" , id="B7">B7</button>
             <button class="button2" , id="Gb7">F#7</button>
@@ -33,12 +33,12 @@
             <button class="button" , id="Gb">G„</button>
             <button class="button" , id="Db">D„</button>
             <button class="button" , id="Ab">A„</button>
-            <button class="button" , id="Eb">E„</button>
-            <button class="button" , id="Bb">B„</button>
+            <button class="button right" , id="Eb">E„</button>
+            <button class="button left" , id="Bb">B„</button>
             <button class="button" , id="F">F</button>
             <button class="button" , id="C">C</button>
-            <button class="button" , id="G">G</button>
-            <button class="button" , id="D">D</button>
+            <button class="button right" , id="G">G</button>
+            <button class="button left" , id="D">D</button>
             <button class="button" , id="A">A</button>
             <button class="button" , id="E">E</button>
             <button class="button" , id="B">B</button>
@@ -47,12 +47,12 @@
             <button class="button" , id="Gbm">G„m</button>
             <button class="button" , id="Dbm">D„m</button>
             <button class="button" , id="Abm">A„m</button>
-            <button class="button" , id="Ebm">E„m</button>
-            <button class="button" , id="Bbm">B„m</button>
+            <button class="button right" , id="Ebm">E„m</button>
+            <button class="button left" , id="Bbm">B„m</button>
             <button class="button" , id="Fm">Fm</button>
             <button class="button" , id="Cm">Cm</button>
-            <button class="button" , id="Gm">Gm</button>
-            <button class="button" , id="Dm">Dm</button>
+            <button class="button right" , id="Gm">Gm</button>
+            <button class="button left" , id="Dm">Dm</button>
             <button class="button" , id="Am">Am</button>
             <button class="button" , id="Em">Em</button>
             <button class="button" , id="Bm">Bm</button>
@@ -61,31 +61,32 @@
             <button class="button2" , id="Dbaug">D„+</button>
             <button class="button2" , id="Abdim">A„˚</button>
             <button class="button2" , id="Ebaug">E„+</button>
-            <button class="button2" , id="Bbdim">B„˚</button>
-            <button class="button2" , id="Bbaug">F#+</button>
+            <button class="button2 right" , id="Bbdim">B„˚</button>
+            <button class="button2 left" , id="Bbaug">F#+</button>
             <button class="button2" , id="Cdim">C˚</button>
             <button class="button2" , id="Gaug">G+</button>
-            <button class="button2" , id="Ddim">D˚</button>
-            <button class="button2" , id="Aaug">A+</button>
+            <button class="button2 right" , id="Ddim">D˚</button>
+            <button class="button2 left" , id="Aaug">A+</button>
             <button class="button2" , id="Edim">E˚</button>
             <button class="button2" , id="Eaug">E+</button>
             <button class="button2" , id="Gbdim">F#˚</button>
         </section>
     </div>
-    <div class="description">
-        <p>線上和弦口琴模擬器以 <a href="http://www.w3.org/TR/webaudio/">Web Audio API</a> 開發。所有聲音皆由 oscillator 發聲，故聽起來是很不真實的「電子」的音色。和弦內音的排列採Suzuki和弦口琴配置，完整的音符列表請搜尋Suzuki和弦口琴，或是進入Github看看我亂七八糟的程式碼。</p>
-        <p>和弦口琴中每個和弦完整的八個音皆有發聲，其中，高頻有稍微濾波，使音色較圓潤。但透過 oscillator 來發聲實在不是什麼好方法，音色聽起來與實際的聲音相差甚遠，下一步要研究 Web MIDI API，使網頁可以發出鋼琴或其他較接近真實樂器的聲音。</p>
-    </div>
-    <div class="alert">
-        <h2><i class="fa fa-exclamation-circle" aria-hidden="true" style="color:red"></i>
+    <div>
+        <div class="description">
+            <p>線上和弦口琴模擬器以 <a href="http://www.w3.org/TR/webaudio/">Web Audio API</a> 開發。所有聲音皆由 oscillator 發聲，故聽起來是很不真實的「電子」的音色。和弦內音的排列採Suzuki和弦口琴配置，完整的音符列表請搜尋Suzuki和弦口琴，或是進入Github看看我亂七八糟的程式碼。</p>
+            <p>和弦口琴中每個和弦完整的八個音皆有發聲，其中，高頻有稍微濾波，使音色較圓潤。但透過 oscillator 來發聲實在不是什麼好方法，音色聽起來與實際的聲音相差甚遠，下一步要研究 Web MIDI API，使網頁可以發出鋼琴或其他較接近真實樂器的聲音。</p>
+        </div>
+        <div class="alert">
+            <h2><i class="fa fa-exclamation-circle" aria-hidden="true" style="color:red"></i>
         尚不支援 <span style="color:red"><i class="fa fa-tablet" aria-hidden="true"></i>平板</span> 或 <span style="color:red"><i class="fa fa-mobile" aria-hidden="true"></i>手機</span></h2>
+        </div>
+        <div class="note">
+            <p>為獲得最佳體驗，請使用Chrome瀏覽器</p>
+            <p>作者：DoNuts口琴樂團-陳翰群</p>
+            <p>Source code available on <a href="https://github.com/aljohn0422/webChord">Github</a></p>
+        </div>
     </div>
-    <div class="note">
-        <p>為獲得最佳體驗，請使用Chrome瀏覽器</p>
-        <p>作者：DoNuts口琴樂團-陳翰群</p>
-        <p>Source code available on <a href="https://github.com/aljohn0422/webChord">Github</a></p>
-    </div>
-
     <script src="js/chord.js"></script>
     <script>
         (function (i, s, o, g, r, a, m) {
