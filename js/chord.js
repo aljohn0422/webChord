@@ -106,9 +106,9 @@ var playChord = function (chord) {
         oscillator[i].connect(gainNode[i]);
         gainNode[i].connect(context.destination);
         if (chord[i] > 600) {
-            gainNode[i].gain.value = 0.1;
+            gainNode[i].gain.value = 0.02;
         } else {
-            gainNode[i].gain.value = 0.2;
+            gainNode[i].gain.value = 0.05;
         }
         oscillator[i].type = 'triangle';
         oscillator[i].frequency.value = chord[i];
