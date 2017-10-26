@@ -128,6 +128,14 @@ var stopChord = function (chord) {
     }
 }
 
+window.addEventListener("touchstart", touchHandler, false);
+
+function touchHandler(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault()
+    }
+}
+
 function makeSound(id, chordBlow) {
     var getChordID = document.getElementById(id);
 
