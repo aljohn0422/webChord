@@ -124,7 +124,7 @@ var playChord = function (chord) {
 var stopChord = function (chord) {
     for (i = 0; i < chord.length; i++) {
         gainNode[i].gain.value = 0;
-        oscillator[i].disconnect(0.2);
+        oscillator[i].disconnect(0.1);
     }
 }
 

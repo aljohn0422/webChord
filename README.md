@@ -15,6 +15,12 @@ Well, press the buttons.
 - Powered by Web Audio API
 
 ## Updates
+**2017.10.26.**
+
+- Add mobile support.
+- Add keywords and descriptions.
+- Remove redundant text.
+
 **2017.10.05.**
 
 - Fix font bugs.
