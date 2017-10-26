@@ -5,14 +5,17 @@
     <title>WebChord Simulator</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="A simple chord simulator for harmonica players." />
+    <meta name="KeyWords" content="chrod, web, harmonica, chord harmonica, suzuki, donuts, 和弦口琴, 模擬, 線上, 口琴" />
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="/css/font-awesome.min.css"> -->
 
 </head>
 
 <body>
     <div>
-        <h1 style="text-align:center"><span style="color:red">Chord Harmonica</span> Web Simulator</h1>
+        <h1 style="text-align:center">
+            <span style="color:red">Chord Harmonica</span> Web Simulator</h1>
     </div>
     <div class="chord">
         <section>
@@ -73,18 +76,11 @@
         </section>
     </div>
     <div>
-        <div class="description">
-            <p>線上和弦口琴模擬器以 <a href="http://www.w3.org/TR/webaudio/">Web Audio API</a> 開發。所有聲音皆由 oscillator 發聲，故聽起來是很不真實的「電子」的音色。和弦內音的排列採Suzuki和弦口琴配置，完整的音符列表請搜尋Suzuki和弦口琴，或是進入Github看看我亂七八糟的程式碼。</p>
-            <p>和弦口琴中每個和弦完整的八個音皆有發聲，其中，高頻有稍微濾波，使音色較圓潤。但透過 oscillator 來發聲實在不是什麼好方法，音色聽起來與實際的聲音相差甚遠，下一步要研究 Web MIDI API，使網頁可以發出鋼琴或其他較接近真實樂器的聲音。</p>
-        </div>
-        <div class="alert">
-            <h2><i class="fa fa-exclamation-circle" aria-hidden="true" style="color:red"></i>
-        尚不支援 <span style="color:red"><i class="fa fa-tablet" aria-hidden="true"></i>平板</span> 或 <span style="color:red"><i class="fa fa-mobile" aria-hidden="true"></i>手機</span></h2>
-        </div>
         <div class="note">
-            <p>為獲得最佳體驗，請使用Chrome瀏覽器</p>
             <p>作者：DoNuts口琴樂團-陳翰群</p>
-            <p>Source code available on <a href="https://github.com/aljohn0422/webChord">Github</a></p>
+            <p>Source code available on
+                <a href="https://github.com/aljohn0422/webChord">Github</a>
+            </p>
         </div>
     </div>
     <script src="js/chord.js"></script>

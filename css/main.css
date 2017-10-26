@@ -6,30 +6,26 @@
 
 html {
     -webkit-user-select: none;
+    user-select: none;
 }
 
-body section {
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-.text {
-    align-content: center;
-    justify-content: center;
+.chord {
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .button {
+    display: inline-block;
     font-family: jazztext;
     align-self: center;
     background: rgba(237, 113, 68, 0.44);
-    margin: 0.2rem;
-    height: 4rem;
-    width: 4rem;
+    margin: 1px;
+    height: 60px;
+    width: 60px;
     color: #F25D50;
-    font-size: 1.8rem;
+    font-size: 24px;
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
@@ -39,14 +35,15 @@ body section {
 }
 
 .button2 {
+    display: inline-block;
     font-family: jazztext;
     align-self: center;
     background: transparent;
-    margin: 0.2rem;
-    height: 4rem;
-    width: 4rem;
+    margin: 1px;
+    height: 60px;
+    width: 60px;
     color: #F25D50;
-    font-size: 1.8rem;
+    font-size: 24px;
     letter-spacing: 1px;
     outline: none;
     border-color: #F27B50;
@@ -57,39 +54,15 @@ body section {
 
 h1 {
     font-family: jazztext;
-    font-size: 60px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-.description {
-    font-family: 'Noto Sans TC', sans-serif;
-    width: 50%;
-    float: left;
-    margin-left: 100px;
-    margin-top: 2.5%;
-    text-indent: 32.5px;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .note {
     font-family: 'Noto Sans TC', sans-serif;
-    width: 30%;
-    float: right;
-    text-align: right;
-    margin-right: 5%;
+    text-align: center;
     line-height: 8px;
-}
-
-.alert {
-    font-family: 'Noto Sans TC', sans-serif;
-    float: right;
-    margin-top: 4%;
-    margin-right: 5%;
-    padding: 0 20px 0 8px;
-    background-color: #FFCB0D;
-    border-style: solid;
-    border-color: #DF3D03;
-    border-radius: 10px;
 }
 
 .right {
