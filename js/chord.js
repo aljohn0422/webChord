@@ -97,6 +97,12 @@ var context = new AudioContext();
 var oscillator = [];
 var gainNode = [];
 
+
+window.oncontextmenu = function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+};
 // functions
 var playChord = function (chord) {
     for (i = 0; i < chord.length; i++) {
