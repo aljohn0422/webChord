@@ -129,10 +129,19 @@ function makeSound(id, chordBlow) {
         getChordID.addEventListener("mousedown", function () {
             playChord(chordBlow)
         });
+        getChordID.addEventListener("touchstart", function () {
+            playChord(chordBlow)
+        });
         getChordID.addEventListener("mouseup", function () {
             stopChord(chordBlow)
         });
+        getChordID.addEventListener("touchend", function () {
+            stopChord(chordBlow)
+        });
         getChordID.addEventListener("mouseout", function () {
+            stopChord(chordBlow)
+        });
+        getChordID.addEventListener("touchmove", function () {
             stopChord(chordBlow)
         });
     }
