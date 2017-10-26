@@ -4,6 +4,10 @@
     src: url('../fonts/jazztext.woff');
 }
 
+html {
+    -webkit-user-select: none;
+}
+
 body section {
     display: flex;
     align-content: center;
